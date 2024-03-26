@@ -1,0 +1,26 @@
+:root {
+	// theme colors.
+	--royal-blue: #091235;
+	--navy-blue: #14202e;
+	--midnight-blue: #2b4257;
+	--blue-gray: #88a9c3;
+	--indus-gold: #b68c2a;
+}
+
+.gold-text {
+	color: var(--indus-gold) !important;
+}
+
+.hover-gold-text{
+	&:hover {
+		color: var(--indus-gold) !important;
+	}
+}
+
+.gold-underline {
+	text-decoration: underline var(--indus-gold) !important;
+}
+
+.gold-bg {
+	background: var(--indus-gold) !important;
+}
