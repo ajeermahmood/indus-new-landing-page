@@ -4,14 +4,19 @@
 	--navy-blue: #14202e;
 	--midnight-blue: #2b4257;
 	--blue-gray: #88a9c3;
-	--indus-gold: #b68c2a;
+	--indus-gold: #f1cc76;
+	--indus-brown: #914718;
+	--indus-brown-light: #f8e2d4;
 }
 
 .gold-text {
 	color: var(--indus-gold) !important;
 }
+.brown-text {
+	color: var(--indus-brown) !important;
+}
 
-.hover-gold-text{
+.hover-gold-text {
 	&:hover {
 		color: var(--indus-gold) !important;
 	}
@@ -23,4 +28,41 @@
 
 .gold-bg {
 	background: var(--indus-gold) !important;
+}
+
+.bg-img-main {
+	background-image: url('/images/bg-img3.avif');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.gold-border {
+	border-color: var(--indus-gold) !important;
+}
+
+.brown-border {
+	border-color: var(--indus-brown) !important;
+}
+
+.main-filter-btns-selected {
+	border-color: var(--indus-brown);
+	color: var(--indus-brown);
+
+	&:hover {
+		background: var(--indus-brown) !important;
+		color: white !important;
+		border-color: var(--indus-brown) !important;
+	}
+}
+
+.main-filter-btns-unselected {
+	border-color: var(--indus-brown-light);
+	color: gray;
+
+	&:hover {
+		background: var(--indus-brown) !important;
+		color: white !important;
+		border-color: var(--indus-brown) !important;
+	}
 }
