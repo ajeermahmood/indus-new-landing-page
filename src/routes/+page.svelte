@@ -9,7 +9,7 @@
 </svelte:head>
 
 <section id="hero" class="bg-gray-100 bg-img-main">
-	<div class="relative isolate pt-14 lg:px-8 backdrop-blur-sm bg-black/30">
+	<div class="relative isolate pt-14 lg:px-8 backdrop-blur-sm bg-black/40">
 		<div class="mx-auto max-w-2xl py-28 sm:py-48 lg:py-56">
 			<div class="text-center mx-3">
 				<h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">

@@ -1,9 +1,9 @@
 <section class="relative isolate overflow-hidden bg-white px-6 py-0 sm:py-5 lg:px-8">
 	<div
-		class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20"
+		class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.yellow.100),white)] opacity-20"
 	/>
 	<div
-		class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"
+		class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-yellow-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center"
 	/>
 	<div class="mx-auto max-w-2xl lg:max-w-4xl">
 		<figure class="mt-10">
@@ -17,11 +17,8 @@
 			</blockquote>
 			<figcaption class="mt-10">
 				<div class="mt-4 flex items-center justify-center space-x-3 text-base">
-					<div class="font-semibold text-gray-900">Judith Black</div>
-					<svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
-						<circle cx="1" cy="1" r="1" />
-					</svg>
-					<div class="text-gray-600">CEO of Workcation</div>
+					<img src="/images/google-reviews.svg" alt="google" width="250" height="64" />
+					<!-- <img src="/images/google-reviews.svg" alt="google" width="250" height="60" /> -->
 				</div>
 			</figcaption>
 		</figure>

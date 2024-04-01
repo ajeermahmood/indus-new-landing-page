@@ -122,7 +122,7 @@
 				<option value="commercial" label="Commercial" />
 				<option value="off-plan" label="Off-Plan" />
 			</select>
-			<span class="inline-flex items-center min-h-8 w-1 bg-gray-300" />
+			<span class="inline-flex items-center min-h-8 w-2 bg-gray-300" />
 			<label
 				for="default-search"
 				class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label
